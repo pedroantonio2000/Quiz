@@ -1,0 +1,149 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.title {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.container {
+    border: white solid ;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 17px;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+.questions-container {
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: large;
+    
+}
+
+
+
+.question {
+    color: white;
+    
+}
+
+.answers-container {
+    margin: 10px;
+    padding: 25px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+
+
+.answers {
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border: none;
+    background-color: deepskyblue;
+    font-size: inherit;
+    
+}
+
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+
+.start-quiz {
+    background-color: deepskyblue;
+    border-width: 0;
+    padding: 15px 42px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin-top: 16px;
+    
+}
+
+.next-question {
+    background-color: deepskyblue;
+    border-width: 0;
+    padding: 15px 42px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin-top: 16px;
+}
+
+button {
+    cursor: pointer;
+    
+}
+
+
+.answers:disabled {
+    cursor: not-allowed;
+}
+
+.start-quiz:hover {
+    background-color: dodgerblue;
+}
+
+.next-question:hover {
+    background-color: dodgerblue;
+}
+
+
+
+.none {
+    display: none;
+}
+
+
+.correct {
+    background-color: mediumseagreen;
+}
+
+
+.incorrect {
+    background-color: red;
+}
+
+
+.scores {
+    color: white;
+}
+
+.question-scores {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.restart-question {
+    background-color: deepskyblue;
+    border-width: 0;
+    padding: 15px 42px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin-top: 16px;
+}
+
+
+.restart-question:hover {
+    background-color: dodgerblue;
+}
+
+
+
