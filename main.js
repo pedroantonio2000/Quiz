@@ -70,7 +70,6 @@ function displayQuestion() {
 function clicarNaResposta(event) {
 
     const clique = event.target;
-    console.log(clique)
     if(clique.dataset.correto) {
         scores++
         
@@ -181,6 +180,3 @@ const questoes = [
         ]
     }
 ]
-
-
-
